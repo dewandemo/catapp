@@ -12,4 +12,4 @@ cd ../
 rm -rf ./catalog
 
 # This is the only custom bit
-kubectl apply -f kubetask.yaml
+# kubectl apply -f kubetask.yaml
