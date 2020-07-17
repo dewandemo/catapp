@@ -6,7 +6,7 @@ git checkout e680707
 kubectl apply -f slackmessage/send-to-channel-slack.yaml
 kubectl apply -f curl/curl.yaml
 kubectl apply -f git/git-clone.yaml
-kubectl apply -f kaniko/kaniko.yaml
+kubectl apply -f jib-maven/jib-maven.yaml
 
 cd ../
 rm -rf ./catalog
